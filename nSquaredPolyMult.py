@@ -1,4 +1,4 @@
-
+# GROUP: Ryan Kardoes, Dmitry Bezborodov
 # Basic O^2 implementation of multiplication
 def poly_mult(coA: list, coB: list):
     ans = [0] * (len(coA) + len(coB) - 1)

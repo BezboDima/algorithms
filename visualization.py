@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from alg_HW1 import poly_multy
 from nSquaredPolyMult import poly_mult
 
+# GROUP: Ryan Kardoes, Dmitry Bezborodov
 # fill up the test cases of polynomials with random ints. Incule every 100th degree poly
 test_cases = []
 for i in range(1, 10001, 100):

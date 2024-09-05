@@ -1,5 +1,6 @@
 from typing import List
 
+# GROUP: Ryan Kardoes, Dmitry Bezborodov
 # Function is responsible for adding and subtraction polynomials
 def add_poly(coef_a: List[float], coef_b: List[float], negative=False):
     ans = []
@@ -80,3 +81,11 @@ def poly_multy(coef_a: List[float], coef_b: List[float]):
 
     return ans
 
+
+A = [3,45,7,-1]
+B = [5,8,0,-4]
+print("Polynomials are in reverse representattion")
+print("First Poly: ", A)
+print("Second Poly: ", B)
+
+print("Answer: ", poly_multy(A,B))
